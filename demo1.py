@@ -13,6 +13,8 @@ from bs4 import BeautifulSoup
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+srver = app.server
+
 
 def gettickers():
     # Fetch the webpage
